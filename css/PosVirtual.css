@@ -1,0 +1,754 @@
+/*TIPOGRAFIA*/
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/Roboto/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: Nunito;
+    src: url(../fonts/Nunito/static/Nunito-Bold.ttf);
+}
+.row {
+   
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+
+.ebibackground {
+    height: 100%;
+    background-size: 100% 100%;
+    width: 100%;
+    background-image: url(../img/background.jpeg);
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+    color: white;
+    position: fixed;
+    z-index: -2;
+    transform: translate3d(0, 0, 0);
+}
+
+
+/*cuadros fondos*/
+.backcolorlogin {
+    height:auto;
+    width: 100%;
+    display: block;
+    float: left;
+    position: relative;
+    border-radius: 20px;
+    background-color: #fbb03b !important;
+    padding-top: 1rem;
+    margin-top: 1rem;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    z-index: 1;
+}
+
+.backcolorlogin2 {
+    height: auto;
+    margin-top: 5px !important;
+    width: 100%;
+    display: block;
+    float: left;
+    position: relative;
+    border-radius: 20px;
+    background-color: #FFFFFF !important;
+/*    padding-top: 1rem;*/
+  /*  margin-top: 1rem;*/
+  z-index: 1;
+}
+
+.backcolorlogin3 {
+    height: 31rem;
+    margin-top: 0px !important;
+    width: 100%;
+    display: block;
+    float: left;
+    position: relative;
+    border: 2px solid #fbb03b !important;
+    border-radius: 20px;
+    background-color: #FFFFFF !important;
+    padding-top: 0px;
+}
+
+.backcolorlogin4 {
+    height: 35rem;
+    margin-top: 0px !important;
+    width: 100%;
+    display: block;
+    float: left;
+    position: relative;
+    border: 2px solid #707070 !important;
+    border-radius: 0px;
+    background-color: #FFFFFF !important;
+    padding-top: 0px;
+}
+
+.backcolorlogin5 {
+    height: 50rem;
+    background: url(../img/Fondo_mailing2.jpeg) 50% no-repeat !important;
+    margin-top: 0px !important;
+    width: 95%;
+    display: block;
+    float: left;
+
+    position: relative;
+    border: 2px solid #707070 !important;
+    border-radius: 0px;
+    background-color: #FFFFFF !important;
+    padding-top: 0px;
+}
+
+.backcolorlogin6 {
+    height: 31rem;
+    margin-top: 0px !important;
+    width: 100%;
+    display: block;
+    float: left;
+    position: relative;
+    border: 2px solid #fbb03b !important;
+    border-radius: 20px;
+    background-color: #FFFFFF !important;
+    padding-top: 0px;
+}
+
+/*logo titulo*/
+.loginimgback {
+    margin-top: 70px;
+}
+
+img.imgprincipallogo {
+    height: auto;
+    width: auto;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-height: 150px;
+   /* margin-top: 20px;*/
+/*    margin-bottom: 20px;*/
+}
+
+img.logotarjetas {
+    width: 45% !important;
+/*    margin-bottom: 50px;*/
+
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-height: 173px !important;
+  /*  margin-bottom: 30px;*/
+}
+
+
+
+/*Textos*/
+h3 {
+    color: #001B71;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+label.colortitlesucces {
+    color: #28C771 !important;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+label.colortitles {
+    color: #fbb03b;
+
+}
+
+input.box {
+    border: 1px black solid !important;
+}
+
+label.titlehelp {
+    color: #FFFFFF !important;
+    font-weight: 600;
+    font-family: "Roboto" !important;
+}
+
+label.colorloginuspas {
+    color: #2D3337;
+    font-weight: 600;
+    font-family: "Roboto" !important;
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    margin: 0;
+    font-size: 11px;
+    font-weight: normal;
+    line-height: 1.8;
+    color: #0a0a0a;
+    font-family: "Roboto" !important;
+}
+
+label.derechos {
+    padding: 1rem;
+    color: #707070;
+}
+
+label.lblinferior {
+    color: #707070;
+}
+
+label.lblinferior2{
+    margin-top: 7rem;
+    color: #707070;
+}
+
+select {
+    border: 1px solid;
+}
+
+label.colortext {
+    color: #707070 !important;
+    font-family: "Roboto" !important;
+}
+
+.colortextplazos {
+    color: #415BA6;
+    font-weight: normal;
+    font-size: 9px;
+}
+
+.colorcuotasactivas {
+    color: #415BA6;
+    font-weight: normal;
+    font-size: 13px;
+}
+
+span.colorcuotasinactivas {
+    color: #BABABA !important;
+}
+
+/*Tooltip*/
+.has-tip {
+    
+    border-bottom: dotted 0px #8a8a8a !important; 
+    
+}
+.tooltip {
+    position: absolute;
+    top: calc(100% + 0.6495rem);
+    z-index: 1200;
+    max-width: 18rem;
+    padding: 0.75rem;
+    border-radius: 3px;
+    background-color: #fbb03b !important;
+    font-size: 60%;
+    color: #fefefe;
+}
+.tooltip.right::before {
+ border-color: transparent #fbb03b !important  ;
+ }
+
+
+
+/* p{
+        color: #BABABA;
+        display: block;
+        margin: 0;
+        font-size: 0.875rem;
+        font-weight: normal;
+        line-height: 1.8;
+        font-family: "Roboto" !important;
+        font-size: 13px;
+    } */
+
+/*MAILING*/
+label.mailingtitle {
+    text-align: center !important;
+    color: #415BA6 !important;
+    font-size: 18px !important;
+}
+
+label.mailingsdataname {
+    font-size: 14px;
+    color: #707070;
+    margin-bottom: 14px;
+}
+
+label.mailingsubtitle {
+    font-size: 13px;
+    color: #2D3337;
+    line-height: 10px;
+}
+
+label.mailingsdatatoken {
+    font-size: 19px;
+    color: #707070;
+    margin-bottom: 30px;
+}
+
+label.mailinginfo {
+    line-height: 15px;
+    font-size: 10px;
+    text-align: justify;
+    color: #707070;
+    margin-bottom: 45px;
+}
+
+span.icon-tooltip:hover {
+    color: #00C1D4 !important;
+}
+
+/*checkboxs*/
+/*texto*/
+label.checkbox {
+    color: #021C70 !important;
+    font-family: "Roboto" !important;
+}
+
+/*cuadro*/
+input[type=checkbox]:not(old),
+input[type=radio]:not(old) {
+    width: 1.4em;
+    font-size: 1em;
+    display: none;
+    opacity: 0;
+    background: #021C70;
+}
+
+.check {
+    position: relative;
+    display: inline-block;
+    float: left;
+    top: 0px;
+    left: 0px;
+    right: 4px;
+    vertical-align: middle;
+    height: 15px;
+    width: 15px;
+    background-color: #FFFFFF;
+    border: 1px solid #021C70;
+    border-radius: 3px;
+    margin-left: 0px;
+    margin-right: 3px;
+    margin-top: 3px !important;
+}
+
+.checkbox input:checked~.check {
+    background-color: #FFFFFF;
+    border: 1px solid #021C70;
+}
+
+.checkbox {
+    display: inline-block;
+    position: relative;
+    padding-left: 0px;
+    margin-bottom: 0px;
+    cursor: pointer;
+    vertical-align: middle;
+    margin: 0px;
+    line-height: 22px;
+    top: 0px;
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/*checkbox after*/
+.checkbox .check:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.checkbox input:checked~.check:after {
+    display: block;
+}
+
+.checkbox .check:after {
+    left: 5px;
+    top: -5px;
+    width: 8px;
+    height: 14px;
+    border: solid #021C70;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+
+/*CUOTAS */
+#showcuotas {
+    display: none;
+}
+
+
+
+/*links */
+a.links u.linktitle {
+    color: #00C1D4;
+    font-weight: 500;
+    font-weight: bold;
+}
+
+a.links u.linktitle :hover {
+    color: white;
+    text-decoration: underline;
+}
+
+a.links u {
+    color: #fbb03b;
+    font-weight: 500;
+    font-weight: bold;
+}
+
+a.links u :hover {
+    color: white;
+    text-decoration: underline;
+}
+
+/* botones*/
+.button.hollow {
+    color: white;
+    margin-top: 1rem;
+   /* height: 54px;*/
+    background-color: #fbb03b;
+    font-family: "Roboto" !important;
+    border: 1px solid #fbb03b;
+    border-radius: 10px;
+}
+
+.button.hollow:hover,
+.button.hollow:focus {
+    color: white ! important;
+    background-color: #fbb03b;
+    border: 1px solid white;
+}
+
+h3.buttonh3star {
+    color: white;
+    margin-top: 2px;
+}
+
+button.hollow.button.expanded.desactive {
+    background-color: #E81546 !important;
+    border: 1px solid #E81546;
+}
+
+button.hollow.button.expanded.desactive:hover {
+    background-color: #be0833 !important;
+}
+
+.button.sinfondo {
+    background-color: white;
+    border: 2px solid #fbb03b;
+    color: #fbb03b;
+}
+
+#payment .payment_methods li img{
+    float: center !important;
+}
+
+
+
+
+
+/*Error en Inputs*/
+.form-error {
+    display: none;
+    margin-top: 0rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #c60f13;
+    background: transparent;
+    float: right;
+    text-align: center;
+    border: solid 1px transparent;
+    width: 150px;
+    margin-top: -1.3rem;
+    margin-bottom: 0rem;
+}
+
+/*---------------------------MODAL LOGIN ERROR-----------------------------------------*/
+
+.iconosalerta1 {
+    margin-top: 2rem;
+    font-size: 75px;
+    color: #F25252;
+}
+
+h1.modaltitle {
+    font-size: 28px;
+    font-family: 'Nunito';
+    color: #F25252;
+    padding-top: 2rem;
+}
+
+h2.modaltexto {
+    font-size: 21px;
+    font-family: 'Nunito';
+    color: dimgrey;
+    padding-top: 2rem;
+}
+
+h3.modalinfo {
+    font-size: 12px;
+    font-family: 'Nunito';
+    color: #BABABA;
+    padding-top: 2rem;
+}
+
+/*---------------------------MODAL CONEXION ACTIVA-----------------------------------------*/
+
+.iconosalerta2 {
+    margin-top: 2rem;
+    font-size: 75px;
+    color: #26BD54;
+}
+
+h1.modaltitle2 {
+    font-size: 28px;
+    font-family: 'Nunito';
+    color: #26BD54;
+    padding-top: 2rem;
+}
+
+h2.modaltexto2 {
+    font-size: 21px;
+    font-family: 'Nunito';
+    color: #707070;
+    padding-top: 2rem;
+}
+
+/*---------------------------MODAL SALIDA SESION-----------------------------------------*/
+
+h1.modaltitle3 {
+    color: #031C70;
+    font-size: 28px;
+    font-family: 'Nunito';
+    padding: 3rem;
+    padding-bottom: 0rem;
+}
+
+h2.modaltexto3 {
+    color: #707070;
+    font-size: 21px;
+    font-family: 'Nunito';
+    padding: 1rem;
+    padding-top: 0rem;
+}
+
+/*Fondo y Tamaño*/
+.reveal#errorlogin {
+    background-color: #FFFFFF;
+    text-align: center;
+    opacity: 1;
+    border: 2px solid #F25252;
+    border-radius: 20px 20px 20px 20px;
+    padding: 5rem;
+    width: 650px;
+    margin-top: 5rem;
+}
+
+div#errorlogin {
+    width: 80%;
+}
+
+
+/*Fondo y Tamaño*/
+.reveal#conexionact {
+    background-color: #FFFFFF;
+    text-align: center;
+    opacity: 1;
+    border: 2px solid #26BD54;
+    border-radius: 20px 20px 20px 20px;
+    padding: 5rem;
+    width: 650px;
+    margin-top: 5rem;
+}
+
+div#conexionact {
+    width: 80%;
+}
+
+.reveal#salidasesion {
+    background-color: #FFFFFF;
+    text-align: center;
+    opacity: 1;
+    border: 2px solid #BABABA;
+    border-radius: 20px 20px 20px 20px;
+    padding-bottom: 50px;
+}
+
+
+    @media only screen and (max-width: 1024px) {
+.leftbotom {
+
+    max-height: 400px !important;
+    max-width: 400px !important;
+
+    }
+
+    }
+
+    
+
+
+
+/*---------------------MODAL RESPONSIVE----------------------*/
+@media (max-width: 639px) {
+    .reveal#conexionact {
+        width: 90%;
+        margin-left: 20px;
+        margin-top: 20px;
+        min-height: 50% !important;
+        height: 50%;
+        padding: 6rem;
+    }
+
+    .iconosalerta2 {
+        font-size: 50px;
+    }
+
+    h1.modaltitle2 {
+        font-size: 18px;
+        padding: 0rem;
+        padding-top: 1rem;
+    }
+
+    h2.modaltexto2 {
+        font-size: 14px;
+        padding: 0rem;
+    }
+
+    .reveal#errorlogin {
+        width: 90%;
+        margin-left: 20px;
+        margin-top: 20px;
+        min-height: 50% !important;
+        height: 50%;
+        padding: 5rem;
+    }
+
+
+    .iconosalerta1 {
+        font-size: 50px;
+    }
+
+    h1.modaltitle {
+        font-size: 18px;
+        padding: 0rem;
+        padding-top: 0rem;
+    }
+
+    h2.modaltexto {
+        font-size: 14px;
+        padding: 1rem;
+    }
+
+    h3.modalinfo {
+        padding-top: 4rem;
+    }
+
+
+    .reveal#salidasesion {
+        width: 90%;
+        margin-left: 20px;
+        margin-top: 20px;
+        min-height: 50% !important;
+        height: auto;
+        padding-bottom: 50px;
+    }
+
+    h1.modaltitle3 {
+        font-size: 18px;
+        padding: 1rem;
+        padding-top: 4rem;
+    }
+
+    h2.modaltexto3 {
+        font-size: 14px;
+        padding: 1rem;
+        padding-top: 0rem;
+    }
+
+}
+
+.positionrigth {
+    margin-right: -15px;
+}
+
+.positionleft {
+    margin-left: -15px;
+}
+
+
+.leftbotom{
+
+    position: fixed;
+    z-index: -2;
+    right: 0px;
+    height: auto;
+    width: auto;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-height: 300px;
+  
+    bottom: 0px;
+    }
+
+
+/*check select*/
+input[type=checkbox]:not(old)+label,
+input[type=radio]:not(old)+label {
+    display: inline-block;
+    margin-left: -8px;
+    line-height: 1.5em;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+input[type=checkbox]:not(old)+label>span,
+input[type=radio]:not(old)+label>span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    border: 2px solid #707070;
+    background: transparent;
+    margin-right: 18px;
+    padding-left: 0px;
+    margin-top: 0px;
+    vertical-align: middle;
+}
+
+input[type=radio]:not(old):checked+label>span>span {
+    display: block;
+    width: 14px;
+    height: 14px;
+    margin: 1px;
+    border-radius: 9px;
+    background: #11b2ff;
+    background-image: -moz-linear-gradient(#707070, #707070);
+    background-image: -ms-linear-gradient(#707070, #707070);
+    background-image: -o-linear-gradient(#707070, #707070);
+    background-image: -webkit-linear-gradient(#707070, #707070);
+    background-image: linear-gradient(#707070, #707070);
+    }
+
+
+
+
